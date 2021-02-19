@@ -1,4 +1,4 @@
-#04. En quelle année est sortie le film The Godfather ? 
-SELECT startYear
+#04 En quelle année est sortie le premier film Superman ? 
+SELECT MIN ( startYear )
 FROM title_basics
-WHERE primaryTitle = "The Godfather" AND  titleType = "movie";
+WHERE primaryTitle = "Superman" AND  titleType = "movie";
