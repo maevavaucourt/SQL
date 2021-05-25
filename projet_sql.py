@@ -57,7 +57,7 @@ def longueur(sql):
     for row in rows :
         print(len(row(0)))
 
-NomRequete = "req2"
+NomRequete = "req" + str(int(input("quelle requete veux-tu ?")))
 
 
 sql= charger(NomRequete)
